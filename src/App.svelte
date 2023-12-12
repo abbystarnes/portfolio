@@ -11,7 +11,7 @@
 
   <p>Under Construction</p>
   <p>
-    Check out <a href="https://github.com/abbystarnes" target="_blank"> my Github </a>, in the meantime!
+    Check out <a href="https://abbystarnes.github.io/2017-portfolio/" target="_blank"> my old portfolio site </a>, in the meantime!
   </p>
 </main>
 
