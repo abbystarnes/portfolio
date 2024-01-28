@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import catConstruction from "./assets/catConstruction.png";
 </script>
 
@@ -15,7 +15,7 @@
       target="_blank"
     >
       my old portfolio site
-    </a>, in the meantime!
+    </a>in the meantime.
   </p>
 </main>
 
