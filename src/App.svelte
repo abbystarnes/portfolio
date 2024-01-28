@@ -1,17 +1,21 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import Counter from './lib/Counter.svelte'
+  import catConstruction from "./assets/catConstruction.png";
 </script>
 
 <main>
   <div>
-    <img src="./src/assets/catConstruction.png" class="logo" alt="Cat Under Construction" />
+    <img src={catConstruction} class="logo" alt="Cat Under Construction" />
   </div>
   <h1>AMS Portfolio</h1>
 
   <p>Under Construction</p>
   <p>
-    Check out <a href="https://abbystarnes.github.io/2017-portfolio/" target="_blank"> my old portfolio site </a>, in the meantime!
+    Check out <a
+      href="https://abbystarnes.github.io/2017-portfolio/"
+      target="_blank"
+    >
+      my old portfolio site
+    </a>, in the meantime!
   </p>
 </main>
 
@@ -25,10 +29,10 @@
   .logo:hover {
     filter: drop-shadow(0 0 2em #646cffaa);
   }
-  .logo.svelte:hover {
+  /* .logo.svelte:hover {
     filter: drop-shadow(0 0 2em #ff3e00aa);
   }
   .read-the-docs {
     color: #888;
-  }
+  } */
 </style>
